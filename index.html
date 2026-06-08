@@ -1,9 +1,16 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>home</title>
 <body>
-<h1>Hey everyone</h1>
-<h1>This is 2nd file</h1>
+<h1>HTML5 Canvas</h1>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+<script>
+const myCanvas = document.getElementById("myCanvas");
+const ctx = myCanvas.getContext("2d");
+ctx.fillStyle = "red";
+ctx.fillRect(20, 20, 150, 100);
+</script>
+
 </body>
-</head>
 </html>
